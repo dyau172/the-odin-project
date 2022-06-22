@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Recreating a webpage based on a design spec
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![name](
+https://github.com/dyau172/the-odin-project/blob/main/2-admin-dashboard/dashboard-project.png?raw=true)](
+https://github.com/dyau172/the-odin-project/blob/main/2-admin-dashboard/dashboard-project.png/)
+
+
 
 ## Available Scripts
 
