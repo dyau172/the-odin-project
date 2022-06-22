@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Norse;
+}
+
+.signupForm {
+    background-color: rgba(249, 249, 250, 1);
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+    .brief {
+        padding-left: 35px;
+        height: 33vh;
+        top: 30px;
+        position: relative;
+
+
+        .desc {
+            position: absolute;
+            bottom: 40px;
+            width: 40vw;
+        }
+
+    }
+
+    .details {
+        height: 30vh;
+        background-color: white;
+        padding-left: 35px;
+        padding-top: 10px;
+
+
+
+
+
+
+
+        .fill {
+            display: flex;
+            text-align: left;
+
+
+            .col {
+                padding-top: 20px;
+                
+
+                .input {
+                    display: flex;
+                    flex-flow: column wrap;
+                    width: 40%;
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                    opacity: 70%;
+                }
+
+            }
+
+
+
+        }
+
+
+
+    }
+
+    .submit {
+        height: 30vh;
+        padding-left: 35px;
+        padding-top: 25px;
+
+        button {
+            background-color: #596D48;
+            color: white;
+            padding: 7px 35px;
+            border-radius: 5px;
+        }
+
+        .haveAcc{
+            position: relative;
+            top: 10px;
+        }
+
+
+    }
+
+}
