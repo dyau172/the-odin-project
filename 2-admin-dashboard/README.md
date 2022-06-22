@@ -5,8 +5,6 @@ https://github.com/dyau172/the-odin-project/blob/main/2-admin-dashboard/dashboar
 https://github.com/dyau172/the-odin-project/blob/main/2-admin-dashboard/dashboard-project.png/)
 
 
-
-
 ## Available Scripts
 
 In the project directory, you can run:
