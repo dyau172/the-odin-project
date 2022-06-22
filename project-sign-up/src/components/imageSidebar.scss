@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+    font-family: Norse;
+    font-weight: bold;
+    src: url('../font/Norse-Bold.otf');
+}
+
+.imageSidebar {
+    display: flex;
+
+
+    .imageBar {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+
+    }
+
+
+    .banner {
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        top: 10vw;
+        position: absolute;
+        width: 40vw;
+        height: 15vh;
+        justify-content: center;
+        gap: 0.2rem;
+
+
+
+
+
+        .brand {
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            width: 5vw;
+            height: auto;
+            padding: 20px 10px;
+
+        }
+
+        .text {
+            position: relative;
+            top: 30%;
+            bottom: 50%;
+            color: white;
+            font-size: 40px;
+
+       
+            
+
+
+        }
+
+
+
+    }
+
+
+
+}
