@@ -1,0 +1,31 @@
+.app {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: inline-flex;
+    @font-face {
+        font-family: 'NorseBold';
+        src: local("NorseBold"),
+        url("../src/font/Norse-Bold.otf") format("opentype");
+        font-weight: bold;
+    }
+
+    @font-face {
+        font-family: 'AbrilFatface';
+        src: local("AbrilFatface"),
+        url("../src/font/AbrilFatface-Regular.ttf") format("truetype");
+        font-weight: regular;
+    }
+    
+
+    .left{
+        width: 40vw;
+       
+    }
+
+    .right{
+        width: 60vw;
+    }
+
+}
