@@ -8,13 +8,21 @@ import Annoucements from './components/Announcements';
 function App() {
   return (
     <div className="app">
-   <NavBar/>
-   <Header/>
-   <div className="section">
-    <Dashboard/>
-    <Annoucements/>
-   </div>
-      
+
+      <div className="nav">
+        <NavBar />
+      </div>
+
+      <div className="section">
+        <Header />
+
+        <div className="container">
+          <Dashboard />
+          <Annoucements />
+        </div>
+
+      </div>
+
 
     </div>
   );
