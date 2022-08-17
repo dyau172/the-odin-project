@@ -43,14 +43,23 @@
                 background-image: linear-gradient(to right, #88c7ff, #88c7ff 2%, transparent 2%, transparent 100%);
                 background-image: -webkit-linear-gradient(to right, #88c7ff, #88c7ff 2%, transparent 2%, transparent 100%)
 
-              
-            
+               
             
 
+            }
+
+            .interactions{
+                display: flex;
+                justify-content: flex-end;
+
+                .icon{
+                    padding-left: 0.3rem;
+                }
             }
            
         }
 
+     
 
 
     }
