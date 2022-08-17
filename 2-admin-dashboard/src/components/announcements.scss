@@ -1,4 +1,55 @@
-*{
-    background-color: blue;
-    
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.announcements{
+  width: 30%;
+  height: 85vh;
+  position: relative;
+  right:0;
+  padding: 1rem;
+  font-family: Roboto, sans-serif;
+
+  .heading{
+    margin-left: 0.7rem;
+  }
+
+  .section{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: white;
+    box-shadow: 0px 2px 3px rgb(175, 175, 175);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+
+    p{
+      color: rgb(88, 88, 88);
+    }
+  }
+
+  .profile{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.3rem;
+  }
+
+  .profile-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid rgb(197, 197, 197);
+    margin-right: 0.7rem;
+  }
+
+  .trending-username {
+    font-size: 12px;
+    font-weight: 400px;
+}
+
+.trending-project {
+    font-size: 12px;
+    color: rgb(88, 88, 88);
+}
+
+  
+  
 }
